@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/single_review_navigation"
+    app:startDestination="@id/addReviewFragment2">
+
+    <fragment
+        android:id="@+id/addReviewFragment2"
+        android:name="app.kojima.jiko.boox.view.fragment.bookreview.AddReviewFragment"
+        android:label="fragment_add_review"
+        tools:layout="@layout/fragment_add_review" >
+        <action
+            android:id="@+id/action_addReviewFragment2_to_userFragment"
+            app:destination="@id/userFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="app.kojima.jiko.boox.view.fragment.user.UserFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" >
+        <action
+            android:id="@+id/action_userFragment_to_addReviewFragment2"
+            app:destination="@id/addReviewFragment2" />
+    </fragment>
+</navigation>

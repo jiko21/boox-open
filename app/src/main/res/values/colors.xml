@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#374031</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#f03eed</color>
+    <color name="gray">#707070</color>
+    <color name="background">#F2F2F2</color>
+    <color name="white_pushed">#cecece</color>
+    <color name="light_blue">#1DA0FF</color>
+    <color name="light_blue_focused">#45acf7</color>
+    <color name="gold">#EAE455</color>
+    <color name="silver">#CCCCCC</color>
+    <color name="bronz">#EAB655</color>
+    <color name="rank">#3B3B3B</color>
+    <color name="danger">#E93A3A</color>
+</resources>

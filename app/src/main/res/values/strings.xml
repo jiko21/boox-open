@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Boox!</string>
+    <string name="title_top">トップ</string>
+    <string name="title_mypage">マイページ</string>
+    <string name="title_setting">アカウント</string>
+    <string name="title_all">ALL</string>
+    <string name="title_follow">フォロー</string>
+    <string name="title_ranking">ランキング</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">facebook_app_id</string>
+    <string name="fb_login_protocol_scheme">fb_login_protocol_scheme</string>
+
+    <string name="twitter_consumer_key" translatable="false">twitter_consumer_key</string>
+    <string name="twitter_consumer_secret" translatable="false">twitter_consumer_key</string>
+    <string-array name="setting_list">
+        <item>OSSライセンス</item>
+        <item>利用規約</item>
+        <item>プライバシーポリシー</item>
+        <item>サインアウト</item>
+    </string-array>
+    <string name="login_policy">
+ログインすると
+<u><a href="https://boox-app.tumblr.com/terns">利用規約</a></u>と\n
+<u><a href="https://boox-app.tumblr.com/privacy">プライバシーポリシー</a></u>に同意したことになります。
+</string>
+    <string name="sub_title">
+        未来を切り開け、本で。\n
+        Go forward, with books.
+    </string>
+
+</resources>
